@@ -65,3 +65,7 @@ They are also copied to your browser account's sync storage (up to about 90 KB) 
 Removing the extension deletes its storage, so **export a backup first**.
 
 Favicons come from the browser's own icon cache, so they work offline. Sites you've never visited show a letter badge instead.
+
+
+## Plan to make it as Chrome Extension
+Not currently, but in future maybe. Keeping it as local for my usage

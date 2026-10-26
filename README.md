@@ -2,6 +2,8 @@
 
 A JSON-driven bookmark manager that replaces your new tab page. No server needed. Only the background photos use the internet.
 
+![Bookmark Tab new tab page with bookmark cards over a fireworks photo](screenshots/new-tab.webp)
+
 ## Install (Chrome / Edge / Brave)
 
 1. Open `chrome://extensions` (Edge: `edge://extensions`, Brave: `brave://extensions`).

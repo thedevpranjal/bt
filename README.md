@@ -6,9 +6,10 @@ A JSON-driven bookmark manager that replaces your new tab page. No server needed
 
 ## Install (Chrome / Edge / Brave)
 
+0. Clone this repo in your local.
 1. Open `chrome://extensions` (Edge: `edge://extensions`, Brave: `brave://extensions`).
 2. Turn on **Developer mode** (top right).
-3. Click **Load unpacked** and pick this `bookmark-manager` folder.
+3. Click **Load unpacked** and pick this cloned `bookmark-manager` folder.
 4. Open a new tab. If Chrome asks "Change back to Google?", choose **Keep it**.
 
 Don't move or delete this folder afterwards. Chrome loads the extension from here.

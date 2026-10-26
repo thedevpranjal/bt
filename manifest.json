@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "BT - Bookmark Tab",
+  "version": "1.0.0",
+  "description": "A JSON-driven bookmark manager on your new tab page. Fully offline.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["storage", "favicon"]
+}

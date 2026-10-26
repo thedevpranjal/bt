@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>New Tab</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="theme-init.js"></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="bg-photo" id="bgA"></div>
+    <div class="bg-photo" id="bgB"></div>
+    <div class="bg-scrim"></div>
+  </div>
+
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">Bookmarks</div>
+      <nav id="pages" class="pages" aria-label="Pages"></nav>
+      <button id="addPage" class="btn ghost add-page" type="button">New page</button>
+      <div class="side-foot" id="syncNote"></div>
+    </aside>
+
+    <main>
+      <header class="topbar">
+        <div class="clock" id="clock" title="Click to switch 12/24-hour">
+          <div class="greet" id="greet"></div>
+          <div class="time"><span id="time"></span><span id="period"></span></div>
+          <div class="date" id="date"></div>
+        </div>
+        <div class="tools">
+          <label class="filter">
+            <span id="filterIcon"></span>
+            <input id="filter" type="search" placeholder="Filter bookmarks" autocomplete="off" spellcheck="false">
+            <kbd>/</kbd>
+          </label>
+          <button id="nextBg" class="icon-btn lg" type="button" title="Next background photo" aria-label="Next background photo"></button>
+          <button id="bgBtn" class="icon-btn lg" type="button" title="Background settings" aria-label="Background settings" aria-expanded="false"></button>
+          <button id="jsonBtn" class="icon-btn lg" type="button" title="Edit JSON"></button>
+          <button id="themeBtn" class="icon-btn lg" type="button"></button>
+        </div>
+      </header>
+
+      <div id="content"></div>
+    </main>
+  </div>
+
+  <a id="credit" class="credit" target="_blank" rel="noopener" hidden></a>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
